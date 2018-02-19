@@ -190,7 +190,6 @@ ul.inline li{
     display: inline-block;
     width: 100%;
     padding: 0.5em;
-    position: relative;
 }
 
 .field .description h4{
@@ -209,23 +208,24 @@ ul.inline li{
 
 .field .description .more{
     position: absolute;
-    right: 0.25em;
+    right: 3%;
     color: #666;
     cursor: pointer;
     z-index: 999999;
-    top: 0.5em;
+    top: 58%;
 }
 
 .field .description .box{
-    display: none;
     position: absolute;
     background: #fff;
-    bottom: 6em;
-    right: 1.5em;
+    top: -6%;
+    right: 8%;
     width: 100%;
     font-size: 75%;
     line-height: 1.5;
     padding: 1.25em;
+    z-index: 99999999999;
+    left: auto;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.42);
 
 }

@@ -109,20 +109,4 @@ jQuery(document).ready(function() {
     });
 
 
-    //tooltip
-    (function () {
-        "use strict";
-        var hiddenItems = document.getElementsByClassName('hidden'), hidden;
-        document.addEventListener('click', function (e) {
-            for (var i = 0; hidden = hiddenItems[i]; i++) {
-                if (!hidden.contains(e.target) && hidden.style.display != 'none')
-                    hidden.style.display = 'none';
-            }
-            if (e.target.getAttribute('data-toggle')) {
-                var toggle = document.querySelector(e.target.getAttribute('data-toggle'));
-                toggle.style.display = toggle.style.display == 'none' ? 'block' : 'none';
-            }
-        }, false);
-    })();
-
 });
