@@ -22,7 +22,7 @@ textarea.form-control {
 
 textarea, 
 textarea.form-control {
-	height: 90px;
+	height: 10em;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	line-height: 30px;
@@ -84,4 +84,4 @@ button.btn.btn-submit:active:focus, button.btn.btn-submit.active:focus { backgro
 
 button.btn.btn-previous,
 button.btn.btn-previous:focus,
-button.btn.btn-previous:active:focus, button.btn.btn-previous.active:focus { background: #bbb; }
+button.btn.btn-previous:active:focus, button.btn.btn-previous.active:focus { background: #bbb; float: left; }

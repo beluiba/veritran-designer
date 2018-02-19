@@ -1,0 +1,121 @@
+.imageuploadify {
+    border: none;
+    position: relative;
+    margin: auto;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: none;
+    padding: 1em;
+}
+
+.imageuploadify .imageuploadify-overlay {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    display: none;
+    font-size: 7em;
+    background-color: rgba(242, 242, 242, .7);
+    text-align: center;
+    pointer-events: none
+}
+
+.imageuploadify .imageuploadify-overlay i {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none
+}
+
+.imageuploadify .imageuploadify-images-list {
+    display: inline-block
+}
+
+.imageuploadify .imageuploadify-images-list i {
+	display: inline-block;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 0;
+	padding: 0;
+	float: left;
+	margin-left: 0.5em;
+}
+
+.imageuploadify .imageuploadify-images-list span.imageuploadify-message {
+    font-size: 1em;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    border: 1px dashed #999;
+}
+
+.imageuploadify .imageuploadify-images-list button.btn-default {
+    display: inline-block;
+    color: #278ABE;
+    border-color: #278ABE;
+    border-radius: 1em;
+    margin: 0;
+    width: 50%;
+    min-width: 210px;
+
+}
+
+.imageuploadify .imageuploadify-images-list .imageuploadify-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 1em;
+    float: left;
+}
+
+.imageuploadify .imageuploadify-images-list .imageuploadify-container button.btn-danger {
+	position: absolute;
+    top: -7px;
+    right: -10px;
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    font-size: 10px;
+    line-height: 1.42;
+    padding: 0.5em;
+    text-align: right;
+    overflow: hidden;
+    z-index: 3;
+    min-width: auto;
+    float: right;
+}
+
+.imageuploadify .imageuploadify-images-list .imageuploadify-container img {
+    height: 100px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto
+}
+
+.imageuploadify .imageuploadify-images-list .imageuploadify-container .imageuploadify-details {
+    position: absolute;
+    top: 0;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, .5);
+    z-index: 2;
+    opacity: 0
+}
+
+.imageuploadify .imageuploadify-images-list .imageuploadify-container .imageuploadify-details span {
+    display: block
+}
