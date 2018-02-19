@@ -1,5 +1,6 @@
 
 input[type="text"], 
+input[type="file"], 
 input[type="password"], 
 textarea, 
 textarea.form-control {
