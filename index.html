@@ -159,18 +159,48 @@
                             <div class="form-group col-xs-12 col-sm-6">
                                 <div class="input-field">
                                     <label for="f1-name">Application Name</label>
-                                    <input type="text" name="f1-name" placeholder="Application Name" class="f1-email form-control" id="f1-email">
+                                    <input type="text" name="f1-name" placeholder="Application Name" class="f1-name form-control">
                                 </div>
                                 <div class="input-field">
                                     <label for="f1-icon">Logo</label>
-                                    <input type="file" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" class="f1-logo form-control"  multiple>
-
+                                    <input type="file" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" class="f1-logo form-control" multiple>
                                     <div class="validation"></div>
                                 </div>
                             </div>
                             <div class="form-group col-xs-12 col-sm-6">
-                                <label for="f1-description">Description</label>
-                                <textarea name="f1-description" id="" cols="30" rows="10" class="f1-description form-control"></textarea>
+                                <div class="input-field">
+                                    <label for="f1-description">Description</label>
+                                    <textarea name="f1-description" id="" cols="30" rows="10" class="f1-description form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12">
+                                <a class="link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Advanced options <i class="mi mi-keyboard-arrow-down"></i></a>
+                                <div class="collapse" id="collapseExample">
+                                    <div class="input-field">
+                                        <label for="f1-target">Target</label>
+                                        <select id="cmbTarget" name="f1-target" class="f1-target form-control">
+                                            <option value="7">VT Mobile Banking - Desktop</option>
+                                            <option value="2">VT Mobile Banking - Internet</option>
+                                            <option value="3">VT Mobile Banking - Internet LAB 1</option>
+                                            <option value="4">VT Mobile Banking - Internet LAB 2</option>
+                                            <option value="15">VT Mobile Banking - Internet LAB 7</option>
+                                            <option value="12">VT Mobile Banking - Lab-01</option>
+                                            <option value="14">VT Mobile Banking - Lab-02</option>
+                                            <option value="5">VT Mobile Banking - Lab-03</option>
+                                            <option value="9">VT Mobile Banking - Lab-04</option>
+                                            <option value="11">VT Mobile Banking - Lab-05</option>
+                                            <option value="8">VT Mobile Banking - Lab-06</option>
+                                            <option value="13">VT Mobile Banking - Lab-07</option>
+                                            <option value="6">VT Mobile Banking - Lab-08</option>
+                                            <option value="1">VT Mobile Banking - Smart</option>
+                                            <option value="10">VT Mobile Banking - eXternal App</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-field">
+                                        <label for="f1-endpoint">EndPoint Services</label>
+                                        <input type="text" name="f1-endpoint" placeholder="url" class="f1-endpoint form-control">
+                                    </div>
+                                </div>
                             </div>
                             <div class="f1-buttons">
                                 <button type="button" class="btn btn-previous">Previous</button>
