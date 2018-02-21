@@ -154,11 +154,9 @@ ul.inline li{
 .field .item{
     width: 100%;
     cursor: pointer;
-    height: 200px;
 
 }
 .field .item img{
-    height: 100%;
     cursor: pointer;
     width: 100%;
 
